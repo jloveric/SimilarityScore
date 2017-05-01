@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/jloveric/SimilarityScore#readme",
   "dependencies": {
-    "helper-clockmaker": "^1.0.3"
+    "damerau-levenshtein": "^1.0.4",
+    "debug": "^2.6.6",
+    "helper-clockmaker": "^1.0.3",
+    "natural": "^0.5.1"
   }
 }
