@@ -1,0 +1,28 @@
+{
+  "name": "similarity-score",
+  "version": "1.0.0",
+  "description": "Hybrid word similarity scores for use in sentence-similarity.",
+  "main": "SimilarityScore.js",
+  "scripts": {
+    "test": "node jasmine-runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jloveric/SimilarityScore.git"
+  },
+  "keywords": [
+    "word",
+    "similarity",
+    "score",
+    "normalized"
+  ],
+  "author": "John Loverich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jloveric/SimilarityScore/issues"
+  },
+  "homepage": "https://github.com/jloveric/SimilarityScore#readme",
+  "dependencies": {
+    "helper-clockmaker": "^1.0.3"
+  }
+}
