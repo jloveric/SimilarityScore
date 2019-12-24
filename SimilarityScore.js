@@ -1,10 +1,7 @@
 "use strict";
 
 let natural = require('natural')
-
 let dlev = require('damerau-levenshtein')
-let Helper = require('helper-clockmaker')
-let debug = require('debug')('SimilarityScore')
 
 let winklerMetaphone = function(a, b, options) {
     let scoreJw = natural.JaroWinklerDistance(a, b);
@@ -42,7 +39,4 @@ let dl=function(a, b, options) {
 let commonScore = { f: metaphoneDl, options : {threshold: 0.3} }
 //let commonScore = { f: winklerMetaphone, options : {threshold: 0.4} }
 
-module.exports.winklerMetaphone = winklerMetaphone;
-module.exports.metaphoneDl = metaphoneDl;
-module.exports.dl = dl;
-module.exports.commonScore = commonScore;
+module.exports = {winklerMetaphone, metaphoneDl, dl, commonScore}
